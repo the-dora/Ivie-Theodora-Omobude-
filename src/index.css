@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Libre Bodoni", serif;
+  --font-sans: "Inter", sans-serif;
+  --color-stark-snow: #F8F9FA;
+  --color-electric-lime: #CCFF00;
+  --color-ink: #141414;
+}
+
+body {
+  background-color: var(--color-stark-snow);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-bodoni {
+  font-family: var(--font-serif);
+}
+
+.font-inter {
+  font-family: var(--font-sans);
+}
